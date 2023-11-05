@@ -5,6 +5,8 @@ two: .double 2
 one: .double 1  
 
 # Function find f(x) = x^4 + 2x^3 -x -1, where x is the value passed through the parameter (register) fa0
+
+# register fa0 return value f(x) 
 .text
 value_substitution:
 	

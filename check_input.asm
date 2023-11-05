@@ -2,7 +2,8 @@
 .include "macros.s"
 
 # check_size: checks the entered accurancy n to satisfy the condition 9 > n > 2
-# if it is true subprogram return 0 else 1
+# if it is true subprogram return 0 else 1 in register a0
+# Parameter a1 -- value (degree) for checking
 check_size:
 	
 	li a0, 1   # Assumption that accurancy is correct, so a0 = 1

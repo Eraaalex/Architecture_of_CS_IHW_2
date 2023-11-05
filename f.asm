@@ -16,8 +16,8 @@ newline: .asciz "\n"
 # (f(middle)*f(left) >= 0) to middle
 
 # Parameter: f14 (fa4) -- accurancy (from 0.001 to 0.000000001)
-
 # fa0 -- return close value
+
 # f4 -- left border
 # f5 -- middle 
 # f6 -- right border
