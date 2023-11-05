@@ -31,7 +31,7 @@ tests:
 	print_str("\n-----------------\n")
 	
 # test pow_accurancy subprogramm:
-	print_str("n = 4, Expected result: 1E-4 \n")
+	print_str("input  = 4, Expected result: 1E-4 \n")
 	lw a0 n4
 	pow_accurancy_macro(a0)
 	print_str("Result: ")

@@ -42,16 +42,6 @@ str:
 	addi	sp, sp, 4
 .end_macro
 
-.macro push_double(%x)
-	addi	sp, sp, -4
-	sw	%x, (sp)
-.end_macro
-
-.macro pop_double(%x)
-	lw	%x, (sp)
-	addi	sp, sp, 4
-.end_macro
-
 
 .macro equation(%x)
 	fmv.d fa0 %x

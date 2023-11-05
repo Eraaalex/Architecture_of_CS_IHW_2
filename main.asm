@@ -13,7 +13,9 @@ main:
 	
 	# Function in macro returns the closest root in order to accurancy
 	find_root(fa0)  # fa0 - parameter accurancy for function in the range from (0.001) to (0.00000001)
+	print_str("Root of x^4 + 2x^3 -x -1 = 0 in [0,1]: ")
 	print_double(fa0) 
+	print_str("\n")
 	b exit # program completion label
 
 
