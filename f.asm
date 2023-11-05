@@ -24,7 +24,7 @@ newline: .asciz "\n"
 # ft8 -- count close value (f(middle)) 
 
 find_solution:
-	mv s1 ra  # saving the return register
+	mv s1 ra              # saving the return register
 	fld f4, zero_, t0     # left border
         fld f6, one, t0       # right border 
         
@@ -57,7 +57,7 @@ find_solution:
         
     check_accurancy:        
         fsub.d f1 f6 f4
-        flt.d   t0, f1, f14   # f(middle) < ε
+        flt.d   t0, f1, f14   # f(middle) < ε (accurancy)
     	beqz    t0, loop
 
     fadd.d  f5, f4, f6    # middle = left_bound + right_bound
