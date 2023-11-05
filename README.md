@@ -37,11 +37,13 @@ __Тесты и результаты__
 6. n = 9 (n > 8). Ожидаемый вывод: уведомление о некорректности ввода
 
 
-1.  ![Alt text](images/image-3.png)
- 
-2. ![Alt text](iimages/mage-4.png)
+1.  
 
-3. ![Alt text](iimages/mage-5.png)
+![Alt text](images/image-3.png)
+ 
+2. ![Alt text](images/image-4.png)
+
+3. ![Alt text](images/image-5.png)
 
 4.  ![Alt text](images/image-6.png)
 
